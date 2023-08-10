@@ -79,7 +79,6 @@ proc newFSObject(
         var contents: seq[FSObject] = @[]
 
         for kind, path in os.walkDir(localPath):
-            # echo "owo", path
             let (fso, mr) = newFSObject(path, exclude, invalidPaths)
 
             case mr.kind
