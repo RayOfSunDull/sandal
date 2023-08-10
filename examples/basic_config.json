@@ -1,0 +1,9 @@
+{
+    "exclude": [
+        "*/.config",
+        "*/.cache",
+        "*/bin",
+        "/home/name/some_path/some_dir",
+        "*/metadata.json"
+    ]
+}
