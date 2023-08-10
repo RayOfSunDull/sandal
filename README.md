@@ -5,13 +5,13 @@
 ## Installation
 You may install the precompiled binary:
 ```sh
-$ clone https://github.com/RayOfSunDull/sandal
+$ git clone https://github.com/RayOfSunDull/sandal
 $ mv sandal/bin/sandal ~/bin/sandal
 $ rm -rf sandal
 ```
 Or compile it using the [nim](https://nim-lang.org/) compiler:
 ```sh
-$ clone https://github.com/RayOfSunDull/sandal
+$ git clone https://github.com/RayOfSunDull/sandal
 $ cd sandal
 $ make
 ```
