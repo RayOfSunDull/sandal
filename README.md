@@ -21,7 +21,7 @@ The basic usage is as follows:
 ```
 $ sandal input_dir output_dir
 ```
-This just works like ``cp``, but can be configured using a json file. Currently the only thing that can be configured using a json file such as the ones in `sandal/examples`. It supports simple glob patterns, as well as a special "`@`" pattern. 
+This just works like ``cp``, but can be configured using a json file such as the ones in `sandal/examples`. It supports simple glob patterns, as well as a special "`@`" pattern. 
 
 In short, `@/some_path` will omit the latest directory in `@` if `@/some_path` exists. The motivation for this was to allow for the general exclusion of Python venvs. Refer to `sandal/examples/ignore_venvs.json`
 
